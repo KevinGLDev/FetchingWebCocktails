@@ -1,0 +1,32 @@
+.contenedor-bebida{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+#img{
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.contenedor-bebida h3, h4{
+    background: transparent;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 13px;
+}
+
+.contenedor-bebida:hover{
+    background: rgba(172, 83, 83, 0.2);
+    
+}
